@@ -1,0 +1,22 @@
+{
+  "name": "irysgitdocs",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["irys", "git", "documentation", "web3", "blockchain"],
+  "author": "",
+  "license": "MIT",
+  "description": "Documentation for IrysGit - Decentralized Git for Web3",
+  "devDependencies": {
+    "vitepress": "^1.6.3"
+  }
+}
