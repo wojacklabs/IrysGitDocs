@@ -5,7 +5,7 @@ export default defineConfig({
   description: 'Complete documentation for IrysGit CLI and GitHirys web platform - Decentralized Git ecosystem for Web3',
   head: [['link', { rel: 'icon', href: '/sprite_favicon.webp' }]],
   themeConfig: {
-    // logo: '/logo.png', // Temporarily disabled - logo file too large for GitHub
+    logo: '/logo.png',
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Guide', link: '/guide/introduction' },
