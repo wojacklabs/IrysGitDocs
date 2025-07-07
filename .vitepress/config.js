@@ -55,9 +55,7 @@ export default defineConfig({
         }
       ]
     },
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/yourname/irys-git' }
-    ],
+    socialLinks: [],
     footer: {
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2024 IrysGit & GitHirys'
