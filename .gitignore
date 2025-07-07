@@ -70,7 +70,7 @@ dist
 
 # Gatsby files
 .cache/
-public
+# public - VitePress needs this folder for static assets
 
 # Storybook build outputs
 .out
