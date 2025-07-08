@@ -1,0 +1,13 @@
+{
+  "buildCommand": "npm run docs:build",
+  "outputDirectory": ".vitepress/dist",
+  "framework": "vitepress",
+  "installCommand": "npm install",
+  "devCommand": "npm run docs:dev",
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+} 
