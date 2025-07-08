@@ -5,7 +5,11 @@ export default defineConfig({
   description: 'Complete documentation for IrysGit CLI and GitHirys web platform - Decentralized Git ecosystem for Web3',
   base: '/',
   cleanUrls: true,
-  head: [['link', { rel: 'icon', href: '/sprite_favicon.webp' }]],
+  outDir: '.vitepress/dist',
+  head: [
+    ['link', { rel: 'icon', href: '/sprite_favicon.webp' }],
+    ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }]
+  ],
   themeConfig: {
     logo: '/logo.png',
     nav: [
