@@ -3,6 +3,8 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'IrysGit & GitHirys Docs',
   description: 'Complete documentation for IrysGit CLI and GitHirys web platform - Decentralized Git ecosystem for Web3',
+  base: '/',
+  cleanUrls: true,
   head: [['link', { rel: 'icon', href: '/sprite_favicon.webp' }]],
   themeConfig: {
     logo: '/logo.png',
